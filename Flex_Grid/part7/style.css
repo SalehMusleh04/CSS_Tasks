@@ -1,0 +1,50 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 4 Images with grid*/
+main{
+    display: grid;
+    grid-template-areas: 
+    'img1 img2'
+    'img3 img4';
+    grid-template-columns: 310px 260px;
+    grid-template-rows: 220px 250px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+figure{
+    width: 300px;
+    position: relative;
+}
+
+figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #00000056;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+#img1{
+    grid-area: img1;
+}
+#img2{
+    grid-area: img2;
+}
+#img3{
+    grid-area: img3;
+}
+#img4{
+    grid-area: img4;
+}
