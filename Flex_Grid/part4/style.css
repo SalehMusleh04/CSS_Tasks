@@ -1,0 +1,60 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Css Nums  */
+
+.nums-container{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    border: 5px solid #efc214;
+    height: 100vh;
+}
+
+.nums-container div{
+    padding: 5px;
+    color: white;
+    font-size: 40px;
+}
+
+#num1{
+    background-color: #2eb387;
+    font-size: 10px;
+    align-self: baseline;
+}
+#num2{
+    background-color: #3598db;
+}
+#num3{
+    background-color: #9a59b5;
+}
+#num4{
+    background-color: #34495e;
+    align-self: stretch;
+    font-size: 60px;
+}
+#num5{
+    background-color: #efc214;
+    align-self: center;
+    font-size: 12px;
+}
+#num6{
+    background-color: #e67f22;
+}
+#num7{
+    background-color: #e64c3d;
+}
+#num8{
+    background-color: #bec3c7;
+}
+#num9{
+    background-color: #2dcc70;
+}
+#num10{
+    background-color: #12a185;
+    align-self: flex-end;
+}
