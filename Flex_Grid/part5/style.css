@@ -1,0 +1,105 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* All Content (Layout)*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+/* Nav in The header */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.nav-bar ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+/*Main Content*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+figure{
+   width: 100px;
+}
+
+figure img{
+   max-width: 100%;
+}
+
+figure figcaption{
+   font-size: 15px;
+   text-align: center;
+}
+
+input[type="search"]{
+    width: 30%;
+    height: 24px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #80808098;
+}
+
+.btns-container button{
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.btns-container button:hover{
+   color: white;
+   background-color: black;
+}
+
+
+/*Footer Links*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #8080803f;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+footer a{
+    text-decoration: none;
+   color: black;
+}
