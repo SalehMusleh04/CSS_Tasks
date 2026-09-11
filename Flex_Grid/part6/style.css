@@ -1,0 +1,61 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.all-content{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'sidebar nav'
+    'sidebar main'
+    'footer footer';
+    grid-template-columns: 130px 1fr;
+    grid-template-rows: 40px 40px 1fr 35px ;
+    width: 600px;
+    margin: 20px auto;
+    row-gap: 7px;
+    column-gap: 7px;
+} 
+
+header,
+nav,
+aside,
+main,
+footer{
+border-radius: 7px;
+    padding: 10px;
+     text-align: center; 
+     color: #000000;
+}
+
+header{
+    grid-area: header;
+    background-color: #ffdd21;
+}
+nav{
+    grid-area: nav;
+    background-color: #02dcff;
+    
+}
+aside{
+    grid-area: sidebar;
+    background-color: #ff7755;
+}
+main{
+    grid-area: main;
+    background-color: #bccbde;
+}
+
+main article{
+    font-size: 11px;
+    text-align: start;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #393f4d84;
+   
+}
