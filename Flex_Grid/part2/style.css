@@ -1,0 +1,53 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center Me Box*/
+
+.box{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #23c9b6;
+    border-radius: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p{
+    background-color: #195596;
+    color: white;
+    padding: 10px;
+    width: 100px;
+}
+
+/* horizontal article */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.container article{
+   width: 200px;
+   height: 248px;
+   background-color: #195596;
+   color: white;
+   padding: 10px;
+   border: 2px solid #195596;
+   border-radius: 10px;
+   margin-top: 10px;
+   box-shadow: 0px 0px 5px #195596;
+}
+
+.container article p{
+    font-size: 18px;
+    line-height: 1.3;
+}
