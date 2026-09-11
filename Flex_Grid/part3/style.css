@@ -1,0 +1,32 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flex Vegetables */
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 15px;
+}
+
+.main-container article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.main-container article p{
+    background-color: #195596;
+    color: white;
+    padding: 10px;
+    border: 2px solid #59a4f4;
+    border-radius: 8px;
+}
