@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    margin: 20px 0 0 20px;
+}
+
+main div{
+    width: 500px;
+    padding: 20px;
+}
+
+.box1{
+    border-color:black ;
+    border-width: 2px;
+    border-style: dashed solid dotted solid ;
+}
+.box2{
+    border-color:black ;
+    border-width: 2px;
+    border-style:  groove solid dashed dotted  ;
+}
+.box3{
+    border : 2px dotted black;
+}
+.box4{
+    border : 2px groove black;
+}
+.box4{
+    border-color : black;
+    border-width: 2px;
+    border-style: solid solid groove groove;
+}
+.box5{
+    border : 2px groove blue;
+}
+.box6{
+    border-color:green blue green green  ;
+    border-width: 2px;
+    border-style:  groove groove dotted groove  ;
+}
