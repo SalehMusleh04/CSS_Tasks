@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+body div{
+     position: absolute;
+     width: 110px;
+     height: 110px;
+}
+
+/* Absolute boxes */
+
+#red-box{
+  background-color: #ff00008c;
+  top: 0;
+  left: 0;
+}
+
+#blue-box{
+  background-color: #0000ff85;
+  top: 0;
+  right: 0;
+}
+
+#green-box{
+  background-color: #0080007b;
+  bottom: 0;
+  left: 0;
+}
+
+#yellow-box{
+  background-color: #ffff0078;
+  bottom: 0;
+  right: 0;
+}
+
