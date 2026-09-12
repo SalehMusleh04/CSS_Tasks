@@ -1,0 +1,157 @@
+/* CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* main grid */
+main{
+    display: grid;
+    grid-template-areas: 
+    'item1 item2 item3 item4'
+    'item5 item6 item7 item8'
+    'item9 item10 item11 item12';
+    gap: 5px;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+main > div{
+    background-color: #efefef;
+    padding: 5px;
+}
+
+
+/* item 1 */
+
+.item1{
+    grid-area: item1;
+}
+
+/* item 2 & item 3 & item 9 & item 12 */
+
+.item2{
+    grid-area: item2;
+}
+
+.item3{
+    grid-area: item3;
+}
+
+.item9{
+    grid-area: item9;
+}
+
+.item12{
+    grid-area: item12;
+}
+
+.item2,
+.item3,
+.item9,
+.item12{
+    display: grid;
+    grid-template-areas: 
+    'sub1 sub2'
+    'sub3 sub4';
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 5px;
+}
+
+/* subs of item 2 & item 3 & item 9 & item 12 */
+
+.item2 .sub1,
+.item3 .sub1,
+.item9 .sub1,
+.item12 .sub1{
+    grid-area: sub1;
+}
+.item2 .sub2,
+.item3 .sub2,
+.item9 .sub2,
+.item12 .sub2{
+ grid-area : sub2;
+}
+.item2 .sub3,
+.item3 .sub3,
+.item9 .sub3,
+.item12 .sub3{
+ grid-area: sub3;
+}
+.item2 .sub4, 
+.item3 .sub4,
+.item9 .sub4,
+.item12 .sub4{
+ grid-area: sub4;
+}
+
+/* item 6 & item 7 */
+
+.item6{
+    display: grid;
+    grid-area: item6;
+    grid-template-areas: 
+    'sub1'
+    'sub2';
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 5px;
+}
+.item7{
+    display: grid;
+    grid-area: item7;
+    grid-template-areas: 
+    'sub1 sub2'
+    'sub1 sub2';
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+
+/* Color & Padding */
+
+.item2 div,
+.item3 div,
+.item6 div,
+.item7 div,
+.item9 div,
+.item12 div{
+    background-color: #cfcfcf;
+    padding: 5px;
+}
+
+/* item 4 */
+
+.item4{
+    grid-area: item4;
+}
+
+/* item 5 */
+
+.item5{
+    grid-area: item5;
+}
+
+/* item 8 */
+
+.item8{
+    grid-area: item8;
+}
+
+/* item 10 */
+
+.item10{
+    grid-area: item10;
+}
+
+/* item 11 */
+
+.item11{
+    grid-area: item11;
+}
+
